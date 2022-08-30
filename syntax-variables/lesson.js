@@ -93,6 +93,8 @@ console.log( (3 > 2 && 4 < 55) || (6 < 5 && 33 * 2 > 44) );
 // Külnbség a var / let / const között.
 {
     console.log('result from the block: ', result);
+    result = true;
+
     var question = 'Who are you?';
     question = 'Who am I?';
 
@@ -102,5 +104,6 @@ console.log( (3 > 2 && 4 < 55) || (6 < 5 && 33 * 2 > 44) );
 }
 
 console.log(question);
+console.log(result);
 // console.log(answer2);
 // console.log(answer);
