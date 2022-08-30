@@ -89,3 +89,18 @@ console.log( milk || bread );
 var result = 88 * 11 > 1000;
 console.log('result: ', result);
 console.log( (3 > 2 && 4 < 55) || (6 < 5 && 33 * 2 > 44) );
+
+// Külnbség a var / let / const között.
+{
+    console.log('result from the block: ', result);
+    var question = 'Who are you?';
+    question = 'Who am I?';
+
+    let answer = 'Joe';
+    const answer2 = 'Jack';
+    answer = 'Bill';
+}
+
+console.log(question);
+// console.log(answer2);
+// console.log(answer);
