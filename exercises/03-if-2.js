@@ -11,5 +11,23 @@
 // - Ha nem nagyobb, mint 500, de páros, akkor azt írasd ki, hogy 'kicsi páros szám'
 // - Ha a szám páratlan, akkor csak annyit írj ki, hogy 'páratlan szám'
 
+// 3.
+// Kő - papír - olló játék
+// Írj egy programot, amibe meg lehet adni a játékos1 mutatását, és a játékos2 mutatását, 
+// és a program kiértékeli a menetet, majd kiírja, hogy jatékos1 vagy játékos2 nyert-e.
+
+// Kód vázlat:
+/*
+
+let jatekos1 = 'kő';
+let jatekos2 = 'papír';
+
+...
+
+... console.log('játékos1 nyert!)
+
+...
+
+*/
 
 
