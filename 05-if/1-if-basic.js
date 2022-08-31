@@ -14,3 +14,4 @@ if (szam1 < szam2) {
 if (szam1 > szam2) {
   console.log('szam1 nagyobb, mint szam2'); // nem fog lefutni!
 }
+
