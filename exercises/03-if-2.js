@@ -8,7 +8,7 @@
 // 2.
 // - Hozz létre egy változót, adj neki értéknek 1-999 között (Haladó: random legyen)
 // - Ha a szám nagyobb, mint 500, akkor ellenődizd le, hogy páros-e. Ha igen, akkor írasd ki, hogy 'nagy páros szám'
-//   Ha nem, akkor azt írasd ki, hogy 'kicsi páros szám'
+// - Ha nem nagyobb, mint 500, de páros, akkor azt írasd ki, hogy 'kicsi páros szám'
 // - Ha a szám páratlan, akkor csak annyit írj ki, hogy 'páratlan szám'
 
 
