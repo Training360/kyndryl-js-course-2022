@@ -15,3 +15,5 @@ let jatekos2 = 'papír';
 ...
 
 */
+
+// Haladó: véletlenszerű legyen a mutatás
