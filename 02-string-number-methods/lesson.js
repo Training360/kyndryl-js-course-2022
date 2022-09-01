@@ -67,3 +67,10 @@ console.log( parseFloat('1222.4-ből 33 kicsi nemes') );
 const messyString = '1222.4-ből 33 kicsi nemes';
 const onlyNumbers = messyString.replace(/[^0-9\.]/g, '');
 console.log( parseFloat(onlyNumbers) );
+
+// Számok értékének növelése 1-el
+let szam1 = 3;
+szam1 = szam1 + 1;
+// Rövidebb formák:
+szam1++;
+++szam1;
