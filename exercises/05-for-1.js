@@ -6,9 +6,37 @@
 //    tomb.push(...)
 // }
 
+console.log("1. FELADAT===========================");
+let tomb = [];
+for (let i = 0; i <= 200; i++) {
+  tomb.push(i);
+}
+console.log("Tömb elemei:");
+for (let i = 0; i < tomb.length; i++) {
+  console.log(tomb[i]);
+}
+
 // 2.
 // Hozz létre és írass ki egy tömböt, amiben a 0-tól 200-ig található páros számok vannak!
 // [0, 2, 4, 6, ....]
+
+// MEGOLDÁS1
+console.log("2. FELADAT===========================");
+let tomb2 = [];
+for (let i = 0; i <= 200; i++) {
+  if (i % 2 === 0) {
+    tomb2.push(i);
+  }
+}
+console.log(tomb2);
+
+// MEGOLDÁS2
+console.log("2. FELADAT/2.MEGOLDÁS================");
+tomb2 = [];
+for (let i = 0; i <= 200; i = i + 2) {
+  tomb2.push(i);
+}
+console.log(tomb2);
 
 // 3.
 // Hozz létre egy tömböt, amiben angolul vannak a számok 1-10-ig. Majd soronként,
