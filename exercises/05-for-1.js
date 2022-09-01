@@ -64,8 +64,18 @@ for (let i = 0; i < tomb3.length; i++) {
 }
 
 // 4.
-// Hozz létre és írass ki egy tömböt, amiben 100-tól lefelé vannak a 3-mal osztható számok!
+// Hozz létre és írass ki egy tömböt, amiben 100-tól lefelé vannak a 3-mal osztható 
+// természetes számok!
 // (Segítség: ha x % 3 === 0, akkor x osztható hárommal.)
+console.log("4. FELADAT===========================");
+
+let tomb4 = [];
+for (let i = 100; i >= 0; i--) {
+  if (i % 3 === 0) {
+    tomb4.push(i);
+  }
+}
+console.log(tomb4);
 
 // 5.
 // Hozz létre kézzel egy tömböt, ami nem egész számokat tartalmaz.
@@ -74,11 +84,26 @@ for (let i = 0; i < tomb3.length; i++) {
 // lefelé kerekített értékét tartalmazza!
 // pl.: [1, 4, 6, 2, 13]
 // Segítség: Math.floor()
+console.log("5. FELADAT===========================");
 
-// 6.
+let tomb5 = [1.2, 4.23, 6.25, 2.556, 13.3, 74.2, 1.11];
+let tomb5floor = [];
+for (let i = 0; i < tomb5.length; i++) {
+  let lefeleKerekitett = Math.floor(tomb5[i]); 
+  tomb5floor.push(lefeleKerekitett);
+}
+console.log(tomb5floor);
+
+
+// 6. (Haladó)
 // Hozd létre az alábbi tömböt: ['kő', 'papír', 'olló', 'gyík', 'spock']!
 // Írasd ki a tömb egyik elemét véletlenszerűen! (Tehát pl. az egyik futtatás után
 // az íratódjon ki, hogy 'kő', majd egy következő után pl. az, hogy 'spock'...).
+
+console.log("6. FELADAT===========================");
+let options =  ['kő', 'papír', 'olló', 'gyík', 'spock'];
+let veletlen0_4 = Math.floor(Math.random() * options.length);
+console.log(options[veletlen0_4]);
 
 // 7. (Haladó)
 // Hozz létre egy tömböt, ami a fibonacci sorozat számat tartalmazza a 100-dik elemig!
