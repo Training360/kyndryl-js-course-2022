@@ -45,6 +45,23 @@ console.log(tomb2);
 // 1 one
 // 2 two
 // ...
+console.log("3. FELADAT===========================");
+let tomb3 = [
+  "one",
+  "two",
+  "three",
+  "four",
+  "five",
+  "six",
+  "seven",
+  "eight",
+  "nine",
+  "ten",
+];
+
+for (let i = 0; i < tomb3.length; i++) {
+  console.log(i + 1, tomb3[i]);
+}
 
 // 4.
 // Hozz létre és írass ki egy tömböt, amiben 100-tól lefelé vannak a 3-mal osztható számok!
