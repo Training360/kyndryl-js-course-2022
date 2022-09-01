@@ -34,3 +34,12 @@ for (let user of users) {
 // 4.
 // Írasd ki annak a user-nek az email címét, akinek az id-ja 3!
 
+// 5.
+// Minden user id-ához adj hozzá 1000-et!
+
+// 6.
+// Minden user-nek adj egy active:true property-t!
+
+// 7.
+// Hozz létre egy új tömböt, amibe csak olyan user-ek kerüljenek be az eddig használt user tömbből,
+// akiknek a neve tartalmaz 'o' betűt!
