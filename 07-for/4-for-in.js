@@ -15,7 +15,19 @@ for (let key in user) {
 }
 
 // Írjuk ki, az objektum összes kulcsát, és értékét!
+
+// Statikusan:
+// console.log('- ' + 'id' + ' : ' + user.id);
+// console.log('- ' + 'firstName' + ' : ' + user.firstName);
+// console.log('- ' + 'lastName' + ' : ' + user.lastName);
+// console.log('- ' + 'gender' + ' : ' + user.gender);
+// ...
+
+// Dinamikusan:
 console.log('user object tartalma:')
 for (let key in user) {
-  console.log(`- ${key} : `);
+  console.log(`- ${key} : ${user[key]}`);
 }
+
+
+
