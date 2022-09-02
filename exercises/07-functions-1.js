@@ -52,5 +52,16 @@ kiirat10szer('alma');
 // 0
 
 // 6.
-// 
+// Írj függvényt, ami bemeneti paraméterként két számot vár, és írja ki, hogy a két szám egymáshoz
+// képest nagyobb, kisebb, vagy egyenlő.
+// Pl.:
+// kiertekel(4, 6);
+// Out:
+// A második szám nagyobb.
+// Pl.:
+// kiertekel(3, 3);
+// Out:
+// A két szám egyenlő.
+
+
 
