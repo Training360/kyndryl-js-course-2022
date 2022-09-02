@@ -78,8 +78,8 @@ console.log(tombIndex([10, 20, 30], 1));
 console.log(tombIndex([10, 20, 30], 6));
 
 // 6.
-// Írj függvényt, ami bemeneti paraméterként két számot vár, és írja ki, hogy a két szám egymáshoz
-// képest nagyobb, kisebb, vagy egyenlő.
+// Írj függvényt, ami bemeneti paraméterként két számot vár, és írja ki, hogy melyik szám a nagyobb.
+// Ha a két szám egyenlő, akkor írja, ki azt.
 // Pl.:
 // kiertekel(4, 6);
 // Out:
@@ -88,6 +88,20 @@ console.log(tombIndex([10, 20, 30], 6));
 // kiertekel(3, 3);
 // Out:
 // A két szám egyenlő.
+console.log("6. FELADAT ================");
+function kiertekel(num1, num2) {
+  if (num1 > num2) {
+    console.log("Az első szám a nagyobb");
+  } else if (num2 > num1) {
+    console.log("A második szám a nagyobb");
+  } else {
+    console.log("A két szám egyenlő");
+  }
+}
+kiertekel(4,6);
+kiertekel(400,6);
+kiertekel(6,6);
+
 
 // 7. (haladó)
 // Írj függvényt, ami bemenetnek egy számot vár, és írasson ki egy fenyőfát * karakterekkel,
