@@ -63,5 +63,18 @@ kiirat10szer('alma');
 // Out:
 // A két szám egyenlő.
 
+// 7. (haladó)
+// Írj függvényt, ami bemenetnek egy számot vár, és írasson ki egy fenyőfát * karakterekkel,
+// aminek annyi szintje van, amennyi a szám volt. A fenyőfának legyen mindig 1 db * karakter
+// talpa is. (A fenyőfa minden szintje páratlan szám, és kettővel hosszabb, mint az előző szint)
+// Pl.:
+// kirajzolFenyofa(5)
+// Out:
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+//     *
 
 
