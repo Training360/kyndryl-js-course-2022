@@ -28,7 +28,6 @@ console.log(szamokFele3);
 // Még a változó se szükséges...
 console.log(szamok.map((s) => s / 2));
 
-
 console.log("map / módosítás ========");
 // Minden user id-ához adj hozzá 1000-et! (Nem elég csak kiíratni)
 let users = [
@@ -37,8 +36,9 @@ let users = [
   { id: 12, name: "Gregor", email: "greg@gmail.com" },
   { id: 4, name: "Joseph", email: "jose@gmail.com" },
 ];
-console.log(users.map((user) => {
-  user.id = user.id + 1000;
-  return user;
-}))
-
+console.log(
+  users.map((user) => {
+    user.id = user.id + 1000;
+    return user;
+  })
+);

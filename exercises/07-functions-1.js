@@ -116,5 +116,28 @@ kiertekel(6,6);
 //  *******
 // *********
 //     *
+console.log("7. FELADAT ================");
 
 
+function createTree(height) {
+
+  let createLevel = function(starsCount, maxLength) {
+    let spaceLength = (maxLength - starsCount) / 2;
+    let levelSpace = '';
+    let levelStars = '';
+    for (let i = 0; i < spaceLength; i++ ) {
+      levelSpace += ' ';
+    }
+    for (let i = 0; i < starsCount; i++ ) {
+      levelStars += '*';
+    }
+    return levelSpace + levelStars + levelSpace;
+  }
+
+  for(let i= 0; i < height; i++) {
+    console.log(createLevel(1 + i*2, 1 + height*2))
+  }
+  
+  console.log(createLevel(1, 1 + height*2))
+}
+createTree(5);
