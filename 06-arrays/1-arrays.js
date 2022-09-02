@@ -18,6 +18,14 @@ cars.push("Nissan");
 console.log(cars.length);
 console.log(cars);
 
+// Elem hozzáadása - Megoldás2
+cars[4] = "Trabant";
+console.log(cars);
+
+// Elem módosítása
+cars[0] = 'Toyota';
+console.log(cars);
+
 // Elem kivétele a tömbből
 let car = cars.pop();
 console.log("cars:", cars);
