@@ -131,7 +131,7 @@ function createTree(height) {
     for (let i = 0; i < starsCount; i++ ) {
       levelStars += '*';
     }
-    return levelSpace + levelStars + levelSpace;
+    return levelSpace + levelStars;
   }
 
   for(let i= 0; i < height; i++) {
