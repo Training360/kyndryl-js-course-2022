@@ -35,7 +35,10 @@ for (let user of users) {
 // Írasd ki annak a user-nek az email címét, akinek az id-ja 3!
 
 // 5.
-// Minden user id-ához adj hozzá 1000-et!
+// Minden user id-ához adj hozzá 1000-et! (Nem elég csak kiíratni)
+for (let user of users) {
+  user.id = user.id + 1000;
+}
 
 // 6.
 // Minden user-nek adj egy active:true property-t!
