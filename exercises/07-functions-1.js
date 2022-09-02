@@ -66,6 +66,16 @@ console.log(utolsoElem([1, 2, 3, 73]));
 // Out:
 // Hiba!
 // 0
+console.log("5. FELADAT ================");
+function tombIndex(tomb, ind) {
+  if (tomb.length <= ind) {
+    console.log('Hiba!');
+    return 0;
+  }
+  return tomb[ind];
+}
+console.log(tombIndex([10, 20, 30], 1));
+console.log(tombIndex([10, 20, 30], 6));
 
 // 6.
 // Írj függvényt, ami bemeneti paraméterként két számot vár, és írja ki, hogy a két szám egymáshoz
