@@ -42,6 +42,15 @@ console.log(osszefuzVesszovel('alma', 'körte', 'narancs'));
 // console.log(utolsoElem([1, 2, 3]))
 // Out:
 // 3
+console.log("4. FELADAT ================");
+
+function utolsoElem(t) {
+  return t[t.length - 1];
+}
+console.log(utolsoElem([1, 2, 3]));
+console.log(utolsoElem([1, 2, 3, 73]));
+
+
 
 // 5.
 // Írj függvényt, ami bemeneti paraméterként egy tömböt és egy számot vár, és térjen vissza
