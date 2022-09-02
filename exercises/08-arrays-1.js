@@ -65,7 +65,6 @@ console.log(merge(["a", "b", "c", "d", "e"], [1, 2, 3, 4, 5]));
 // johndoe@gmail.com
 // lukesky@gmail.com
 console.log("5.FELADAT ============");
-
 function mergeAll(arr, word) {
   arr.forEach((e) => {
     console.log(e + word);
