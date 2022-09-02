@@ -27,6 +27,13 @@ kiirat10szer('alma');
 // console.log(osszefuzVesszovel('alma', 'körte', 'narancs'))
 // Out:
 // alma,körte,narancs
+console.log("3. FELADAT ================");
+function osszefuzVesszovel(p1, p2, p3) {
+  let result = p1 + ',' + p2 + ',' + p3;
+  return result;
+}
+console.log(osszefuzVesszovel('alma', 'körte', 'narancs'));
+
 
 // 4.
 // Írj egy függvényt, ami bemeneti paraméterként egy tömböt vár, és visszaadja a tömb utolsó elemét!
