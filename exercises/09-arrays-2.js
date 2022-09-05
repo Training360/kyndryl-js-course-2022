@@ -14,12 +14,12 @@ let students = [
 let students2 = students
   .filter((s) => 10 <= s.age && s.age <= 12)
   .map((s) => s.firstname + ' ' + s.lastname)
-  .sort((name1, name2) => {
-    if(name1 < name2) {
-      return -1;
-    } else {
-      return 1;
-    }
-  });
+  .sort((name1, name2) => name1 < name2 ? -1 : 1
+    // if(name1 < name2) {
+    //   return -1;
+    // } else {
+    //   return 1;
+    // }
+  );
 
 console.log(students2);
